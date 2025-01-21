@@ -40,8 +40,22 @@
   font-size: 22px;
 }
 
-/* When the screen is less than 400 pixels wide */
-@media screen and (max-width: 400px) {
+
+/*testing section below, may remove later */
+/* Style the video: 100% width and height to cover the entire window */
+#cherrytreevideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+
+/* When the screen is less than 800 pixels wide */
+@media screen and (max-width: 800px) {
   /* Hide all links, except for the selected tab */
   .topnav a:not(.active) {
     display: none;
@@ -54,11 +68,11 @@
   }
 }
 
-/* When the screen is less than 400 pixels wide, if the user clicks on the icon */
+/* When the screen is less than 800 pixels wide, if the user clicks on the icon */
 /* the "responsive" class attribute will be added to the topnav by the JavaScript code */
 /* This media query sets the style for the unfolded topnav */
 /* It makes the topnav look good on small screens (display the links vertically instead of horizontally)  */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .topnav.responsive {
     position: relative;
   }
@@ -75,3 +89,5 @@
     text-align: left;
   }
 }
+
+
