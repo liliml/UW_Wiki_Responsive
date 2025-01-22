@@ -1,7 +1,12 @@
+/* this css file is for index.html file, aka About UW tab */
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgb(84, 0, 141);
   overflow: hidden;
+  /* two lines below center the navbar */
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* Style the links inside the navigation bar */

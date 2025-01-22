@@ -1,3 +1,5 @@
+//is main js file, is for index.html file aka "About UW" page
+
 // Get the element with the class "icon"
 let icon = document.getElementsByClassName("icon")[0];
 

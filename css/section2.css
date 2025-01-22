@@ -1,0 +1,49 @@
+/* this css file is for section2.html file, aka UW Research tab */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(84, 0, 141);
+    overflow: hidden;
+    /* display: inline-block; */
+
+    /* two lines below center the navbar */
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-self: center; */
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #ebcd55;
+    color: white;
+  }
+  
+  /* Hide the icon that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  /* Style for page content */
+  .content {
+    padding: 14px;
+    font-size: 22px;
+  }
