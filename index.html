@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <!-- Navigation bar -->
     <div class="topnav" id="myTopnav">
         <!-- Active link pointing to the index.html page -->
@@ -33,41 +32,81 @@
         </a>
     </div>
 
+    
     <!-- Page content -->
     <div class="content">
         
-        <!-- The video -->
-        <video autoplay muted loop id="cherrytreevideo">
-            <source src="https://www.youtube.com/watch?v=Fb2nsj-ax9k" type="video/mp4">
-            <!--<a href=https://www.youtube.com/watch?v=Fb2nsj-ax9k></a>-->
-        </video>
-        <!-- Optional: some overlay text to describe the video -->
-        <!--<div class="content"> -->
-            <!--<h1>Heading</h1>-->
-            <!--<p>Lorem ipsum...</p>-->
-            <!-- Use a button to pause/play the video with JavaScript -->
-            <!--<button id="myBtn" onclick="myFunction()">Pause</button>-->
-        <!--</div>-->
+        <div class="backgroundimg">
+            <!-- Section for background img -->
+            <img src="https://artsci.washington.edu/sites/default/files/2022-02/About-main1.1.jpg">
+        </div>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+                <img src="https://offloadmedia.feverup.com/secretseattle.co/wp-content/uploads/2022/09/13024405/yiyang-mJVbuqAfMQ4-unsplash-1024x683.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+            </div>
         
-        <!-- Abstract section -->
-        This is the abstract section.
-        <br>
-        <br>
-        <!-- Displaying the course cover image in a scaled size -->
-        Here is the course cover image in a scaled size:
-        <br>
-        <img src="img/cover.jpg" style="width: 100%; height: auto;">
-        <br>
-        <br>
-        <!-- Displaying the course cover image in its original size -->
-        Here is the course cover image in its original size:
-        <img src="img/cover.jpg">
-        <!-- <img src="img/cover.jpg" style="width: 100%; height: auto;"> -->
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+                <img src="https://cdn.britannica.com/55/121755-004-9274BBF0/Suzzallo-Library-University-of-Washington-Seattle.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+                <img src="https://images.squarespace-cdn.com/content/v1/5b390ebb7e3c3a94b302e525/1534807010533-Z2AJ5OGOS9V233CXI34Z/uw.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+                <img src="https://i.pinimg.com/736x/ca/38/da/ca38da95b1fab3aa8ab8876409e4990b.jpg" style="width:100%">
+            <div class="text">Caption Four</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <!-- <div class="test"> -->
+            <!-- Abstract section -->
+            <!-- This is the abstract section. -->
+    
+            <!-- Displaying the course cover image in a scaled size -->
+            <!-- Here is the course cover image in a scaled size: -->
+    
+            <!-- <img src="img/cover.jpg" style="width: 100%; height: auto;"> -->
+    
+            <!-- Displaying the course cover image in its original size -->
+            <!-- Here is the course cover image in its original size: -->
+            <!-- ORIGINAL <img src="img/cover.jpg"> -->
+            <!-- <img src="img/cover.jpg" style="width: 100%; height: 100%;"> -->
+        <!-- </div> -->
+        <img class="test" src="img/cover.jpg" style="width: 100%; height: auto;"> 
+        <img class="test" src="img/cover.jpg" style="width: 100%; height: auto;"> 
+
+
     </div>
 
     <!-- Including the main.js file for JavaScript functionality -->
     <script src="js/main.js"></script>
 
+    
 </body>
 
 </html>

@@ -43,13 +43,138 @@
 
 /*testing section below, may remove later */
 /* Style the video: 100% width and height to cover the entire window */
-#cherrytreevideo {
+/*#cherrytreevideo {
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+} */
+
+
+/* Section below for background img, still need to figur out how to make it be the size of the page and change as you zoom in and out */
+.backgroundimg {
+
+  background-image: url("https://artsci.washington.edu/sites/default/files/2022-02/About-main1.1.jpg");
+  background-repeat: no-repeat;
+  /* ORIGINAL background-size: 100% 100%; */
+  /* background-size: contain; */
+  background-size: cover;
+  
+  opacity: 0.5;
+
+  /* float: left; */
+
+  width: 150vw;
+  height: 150vh;
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+  /* background-attachment: fixed; */
+  position: fixed;
+
+  /* overflow: auto; */
+
 }
+
+
+
+/* Section below for the Slideshow section */
+* {
+  box-sizing:border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  /* display: none; */
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*.slideshow-container, .img {
+  height: auto;
+  width: auto;
+}*/
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
 
 
 
@@ -66,6 +191,7 @@
     float: right;
     display: block;
   }
+  
 }
 
 /* When the screen is less than 800 pixels wide, if the user clicks on the icon */
@@ -88,6 +214,7 @@
     display: block;
     text-align: left;
   }
+
 }
 
 
