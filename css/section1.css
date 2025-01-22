@@ -2,6 +2,11 @@
 .topnav {
     background-color: rgb(84, 0, 141);
     overflow: hidden;
+    /* display: inline-block; */
+
+    /* two lines below center the navbar */
+    display: flex;
+    justify-content: center;
   }
   
   /* Style the links inside the navigation bar */
@@ -73,3 +78,20 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
+
+  /* Section below for adding + and - signs to accordian to show if section is open or closeds */
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+
+  /* Removed section below as it still works without it and also causes issues by creating a weird box icon on the nav 
+  as the active link that points to the html page for section1 is affecting the navbar and has the .active class */
+  /* .active:after { */
+    /* content: "\2796";  */
+    /* Unicode character for "minus" sign (-) */
+  /* } */
