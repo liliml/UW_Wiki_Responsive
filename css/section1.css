@@ -6,7 +6,8 @@
 
     /* two lines below center the navbar */
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* justify-self: center; */
   }
   
   /* Style the links inside the navigation bar */
