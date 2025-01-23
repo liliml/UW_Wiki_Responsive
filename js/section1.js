@@ -1,3 +1,5 @@
+//this js file is for section1.html file, aka UW History tab
+
 // Section below for accordian: 
 
 var acc = document.getElementsByClassName("accordion");

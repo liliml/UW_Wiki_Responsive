@@ -112,3 +112,9 @@
   height: 150vh;
   position: fixed;  
 }
+
+.historytext {
+  background-color: #ffffff;
+  padding:1%;
+  text-decoration: underline;
+}

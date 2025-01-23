@@ -61,3 +61,8 @@
     height: 150vh;
     position: fixed;  
   }
+
+  .imagetext {
+    background-color: #ffffff;
+    padding:1%;
+  }

@@ -88,7 +88,10 @@
 
 }
 
-
+.introuwtext {
+  background-color: #ffffff;
+  padding:1%;
+}
 
 /* Section below for the Slideshow section */
 * {
