@@ -7,6 +7,7 @@
   /* two lines below center the navbar */
   display: flex;
   justify-content: space-evenly;
+  border: 2px solid rgb(0, 0, 0);
 }
 
 /* Style the links inside the navigation bar */
@@ -26,12 +27,14 @@
   color: black;
   text-decoration: underline;
   font-style: italic;
+  border: 2px solid rgb(235, 232, 74);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #ebcd55;
   color: white;
+  /* border: 2px solid rgb(234, 243, 63); */
 }
 
 /* Hide the icon that should open and close the topnav on small screens */
