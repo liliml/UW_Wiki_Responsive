@@ -27,7 +27,7 @@
   color: black;
   text-decoration: underline;
   font-style: italic;
-  border: 2px solid rgb(235, 232, 74);
+  border: 2px rgb(0, 0, 0);
 }
 
 /* Add an active class to highlight the current page */
