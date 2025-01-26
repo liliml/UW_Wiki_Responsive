@@ -63,6 +63,7 @@
     border: none;
     outline: none;
     transition: 0.4s;
+    border-radius: 5px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -82,6 +83,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    border-radius: 5px;
   }
 
   /* Section below for adding + and - signs to accordian to show if section is open or closeds */
@@ -117,6 +119,7 @@
   background-color: #ffffff;
   padding:1%;
   text-decoration: underline;
+  border-radius: 5px;
 }
 
 /* media queries */
