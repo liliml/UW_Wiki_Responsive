@@ -63,10 +63,21 @@
     position: fixed;  
   }
 
-  .researchtext {
-    background-color: #ffffff;
-    padding:1%;
-  }
+.researchtext {
+  background-color: #ffffff;
+  padding:1%;
+  border-radius: 5px;
+}
+
+.researchimg {
+  border-radius: 5px;
+  height: 80vh;
+  width: 75vw;
+  margin-top: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 /* media queries */
 /* When the screen is less than 800 pixels wide */
