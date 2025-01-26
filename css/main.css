@@ -91,6 +91,7 @@
 .introuwtext {
   background-color: #ffffff;
   padding:1%;
+  border-radius: 5px;
 }
 
 /* Section below for the Slideshow section */
